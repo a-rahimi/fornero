@@ -70,6 +70,9 @@ line_length = 100
 line-length = 100
 target-version = ["py311", "py312", "py313"]
 
+[tool.ruff]
+exclude = ["design-docs/ARCHITECTURE.md"]
+
 [tool.mypy]
 python_version = "3.11"
 warn_return_any = true
